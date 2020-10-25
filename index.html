@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Extractor</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body class="text-center">
+    
+    <img class="mt-5" src="assets/dsc.svg" width="200px" height="200px"/>
+    <h1 class="mb-5 mt-5">Discord Extractor</h1>
+    <h3>Get images files of emojis, server icons, and profile pictures in Discord.</h3>
+    <br>
+    <div class="page-container">
+        <form onsubmit="event.preventDefault(); getImage(itemId.value)">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">Emoji / Server / User ID</span>
+                </div>
+                <input type="text" required class="form-control" id="itemId" placeholder="Enter the ID of the emoji, server, or user here" aria-label="ID" aria-describedby="basic-addon1">
+            </div>
+            <button type="submit" class="btn btn-primary">Get Image</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>

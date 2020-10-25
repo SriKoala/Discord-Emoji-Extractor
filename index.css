@@ -1,0 +1,16 @@
+body {
+    color: white;
+    background-color: #2C2F33;
+}
+
+footer {
+    position: fixed; 
+    bottom: 0;
+    text-align: center;
+}
+
+.page-container {
+    width: 50%; 
+    transform: translate(50%);
+    margin-top: 20px;
+}
