@@ -1,2 +1,4 @@
 # Discord Extractor
- Extracts image files from discord emojis, server icons, and profile pictures.
+ Extracts image files from discord emojis
+# Page
+ https://SriKoala.github.io
