@@ -1,4 +1,4 @@
 # Discord Emoji Extractor
  Extracts image files from discord emojis
 # Page
- https://SriKoala.github.io
+ https://SriKoala.github.io/Discord-Emoji-Extractor
